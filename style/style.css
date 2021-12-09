@@ -158,7 +158,6 @@ footer{
 /** FIN INDEX **/
 /** INICIO CONTACTO **/
 
-
 .contacto__main{
   flex-direction: column;
   align-items: center;
@@ -168,7 +167,6 @@ footer{
 .section-form{
   width: 750px;
 }
-
 
 .form__fieldset-container{
 
@@ -391,19 +389,15 @@ footer{
   display: flex;
   width: 50vw;
   justify-content: center;
-
-
 }
 
 .container__img img{
-
   width: 30vw;
 }
 
 /**PORTAFOLIO**/
 
 .portafolio__main{
-
   display: flex;
   flex-direction: column;
 }
@@ -414,16 +408,13 @@ footer{
 
 .portafolio__main-section1 h1{
   margin-left: 25px;
-  
 }
 
 .portafolio__main-section2{
-
   display: flex;
 }
 
 .portafolio__main-section2-article{
-
   display: flex;
   flex-wrap: wrap;
   flex-direction: row;
@@ -431,7 +422,6 @@ footer{
 }
  
 .portafolio__main-section2-article img{
-
  width: 25vw;
 }
 
@@ -441,7 +431,6 @@ footer{
 }
 
 .footer__portafolio{
-
   position: sticky;
 }
 
@@ -450,7 +439,6 @@ footer{
 @media screen and (max-width: 1225px){
 
   .servicios__container-ul h2{
-
     min-width: 243px;
   }
   .servicios__container{
@@ -462,7 +450,6 @@ footer{
     "servicios__container-ul-2"
     "servicios__container-ul-3";
     grid-row-gap: 1vh;
-  
   }
 
   .servicios__container-ul{
@@ -472,7 +459,6 @@ footer{
 
 
   .servicios__footer{
-
     position: sticky;
     bottom: 1rem
   }
@@ -590,6 +576,8 @@ footer{
     
   }
 
+
+  
   #input-email{
     width: auto;
   }
