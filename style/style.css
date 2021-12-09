@@ -435,6 +435,11 @@ footer{
  width: 25vw;
 }
 
+.portafolio__main-section2-article img:hover{
+  transform: scale(1.1);
+  border: #1f2f47 10px solid;
+}
+
 .footer__portafolio{
 
   position: sticky;
@@ -605,6 +610,12 @@ footer{
   .container__img img {
     width: 35vw;
     height: 65vh;}
+
+  .portafolio__main-section2-article img:hover{
+    transform: scale(1.3);
+    border: #1f2f47 5px solid;
+  }
+    
 }
 
 @media screen and (max-width: 425px){
