@@ -605,6 +605,14 @@ footer{
   }
     
 }
+@media screen and (max-width: 1280px ) and (min-width: 1156px){
+
+  .index__body{
+    background-size: calc(100% / 3) 100%;
+  }
+}
+
+
 
 @media screen and (max-width: 425px){
 
