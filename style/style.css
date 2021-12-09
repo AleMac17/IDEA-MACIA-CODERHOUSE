@@ -612,14 +612,15 @@ footer{
   }
 }
 
-
-
 @media screen and (max-width: 425px){
 
 
   footer{
-    display: none;
-    visibility: hidden;
+    bottom: 24vh;
+    left: 64vw;
+    font-family: 'Poppins', serif;
+    font-size: 1.1rem;
+    border-top: #03071e solid 2px;
   }
   body{
     width: 100vw;
@@ -647,6 +648,36 @@ footer{
     width: 40vw;
   }
 
+
+  .container1 h1{
+    font-size: 1.35em;
+  }
+  .container1 h2{
+    font-size: 1.1em;
+  }
+  .container2{
+    margin-top:1px
+  }
+  .container2 h1{
+    font-size: 1.35em;
+  }
+  .container2 h2{
+    font-size: 1.1em;
+  }
+  .container2 p{
+    font-size: 1em;
+    
+  }
+
+  .container__img{
+    height: 71vw;
+    flex-direction: column;
+    justify-content: flex-end;
+  }
+  .container__img img{
+    width: 45vw;
+    height: auto;
+  }
 }
 
 
