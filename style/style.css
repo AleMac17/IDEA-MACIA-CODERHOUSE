@@ -235,6 +235,7 @@ footer{
   grid-template-areas:   "header header header"
   "servicios__main servicios__main servicios__main" 
   "footer footer footer" ;
+  height: 100%;
 }
 
 .servicios__section{
