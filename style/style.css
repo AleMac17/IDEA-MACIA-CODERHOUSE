@@ -427,7 +427,7 @@ footer{
 
 .portafolio__main-section2-article img:hover{
   border: #1f2f47 10px solid; 
-  animation: 1.2s linear .1s zoomscale;
+  animation: 0.5s linear .1s zoomscale;
   animation-fill-mode: forwards;
 }
 @keyframes zoomscale {
