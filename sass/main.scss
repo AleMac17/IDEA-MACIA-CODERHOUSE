@@ -329,10 +329,11 @@ grid-area: servicios_container;
   display: flex;
   width: 50vw;
   justify-content: center;
+  & img{
+    width: 30vw;
+  }
 }
-.container__img img{
-  width: 30vw;
-}
+
 
 /**PORTAFOLIO**/
 
@@ -405,7 +406,6 @@ grid-area: servicios_container;
   }
 
   .index__body{
-
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-position: center;
@@ -424,15 +424,12 @@ grid-area: servicios_container;
       flex-direction: column;
     }
     .servicios__container-ul-li{
-
       min-width: 247px;
     }
     .servicios__container-ul h2{
-
       min-width: 243px;
     }
     .index__body{
-
       background-repeat: no-repeat;
       background-attachment: fixed;
       background-position: center;
@@ -486,13 +483,10 @@ grid-area: servicios_container;
     width: auto;
     height: fit-content;
   }
-
-
   .servicios__footer{
     position: sticky;
     bottom: 1rem
   }
-  
   /*Contacto*/
   .contacto__main{
     max-width: 768px;
@@ -505,11 +499,7 @@ grid-area: servicios_container;
   }
   .form__fieldset{
     height: 50%;
-    
   }
-
-
-  
   #input-email{
     width: auto;
   }
