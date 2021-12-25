@@ -4,7 +4,7 @@
   background-attachment: fixed;
   background-position: center;
  /* background-image: url(https://i.ibb.co/bNsKfPK/a.jpg) ;*/
-  background-image: url(https://i.ibb.co/XVJK6Nw/foto-inicio.jpg) ; 
+  background-image: url("./../img/foto-inicio.jpg") ; 
   height: 100vh;
   display: grid;
   background-size: contain;
@@ -479,7 +479,7 @@ footer{
     background-attachment: fixed;
     background-position: center;
    /* background-image: url(https://i.ibb.co/bNsKfPK/a.jpg) ;*/
-    background-image: url(https://i.ibb.co/3S1CSRv/IMG-4799-1.jpg) ; 
+    background-image: url("./../img/IMG_4799 (1).jpg") ; 
   
   }
 }
@@ -508,7 +508,7 @@ footer{
       background-position: center;
      /* background-image: url(https://i.ibb.co/bNsKfPK/a.jpg) ;*/
       background-color: rgba(0,0,0,0.8);
-      background-image: url(https://i.ibb.co/3S1CSRv/IMG-4799-1.jpg) ; 
+      background-image: url("./../img/IMG_4799 (1).jpg") ; 
       
       
     
