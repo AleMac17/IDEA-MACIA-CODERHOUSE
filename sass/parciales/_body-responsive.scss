@@ -85,6 +85,8 @@ a:visited {
 }
     
 
+
+
 @media (min-width:1150px){
 
   .body-resposive{
@@ -118,6 +120,12 @@ a:visited {
     
   }
 
+}
+
+@media (max-width:813px){
+  .row__main .row__main-div{
+    height: 77vh;
+  }
 }
 
 @media (max-width:435px){
