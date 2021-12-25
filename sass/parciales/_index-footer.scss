@@ -4,4 +4,13 @@
     margin-top: auto;
     position: sticky;
     top: 94vh;
+    & p{
+        margin-right: 1vw;
+    }
+}
+
+@media (max-width:813px){
+    .index_footer{
+        visibility: hidden;
+    }
 }

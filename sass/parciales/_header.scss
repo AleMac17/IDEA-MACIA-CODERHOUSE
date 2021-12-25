@@ -2,6 +2,10 @@
     flex-direction: row-reverse;          
 }
 
+.navbar-brand{
+    z-index: 1000;
+}
+
 .navbar-toggler {
     border: 0 !important;
 }

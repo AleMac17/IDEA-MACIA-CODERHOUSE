@@ -23,6 +23,11 @@ a:visited {
   text-decoration: none;
 }
 
+.nav-link:hover {
+  font-size: 110%;
+  font-weight: 600;
+}
+
 .text-center {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -138,6 +143,10 @@ a:visited {
           flex-direction: row-reverse;
 }
 
+.navbar-brand {
+  z-index: 1000;
+}
+
 .navbar-toggler {
   border: 0 !important;
 }
@@ -241,5 +250,15 @@ a:visited {
   position: -webkit-sticky;
   position: sticky;
   top: 94vh;
+}
+
+.index_footer p {
+  margin-right: 1vw;
+}
+
+@media (max-width: 813px) {
+  .index_footer {
+    visibility: hidden;
+  }
 }
 /*# sourceMappingURL=main.css.map */

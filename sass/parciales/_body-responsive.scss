@@ -1,5 +1,11 @@
+$bg-img: (
+  "big": url(./../img/bg-img.jpg),
+  "small": url(./../img/bg-img-alt.jpg),
+);
+
+
 .body-resposive{
-    background-image: url(./../img/bg-img-alt.jpg);
+    background-image: map-get($bg-img, small);
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: contain;
@@ -24,6 +30,11 @@ a:visited {
   text-decoration: none;
   }
 
+.nav-link:hover{
+  font-size: 110%;
+  font-weight: 600;
+}
+
 .text-center{
   display: flex;
   justify-content: center;
@@ -44,10 +55,8 @@ a:visited {
   display: flex;
   justify-content: center;
   &:hover{
-    
-      border-bottom: #03071e solid 5px;
-      color: #03071e;
-      
+    border-bottom: #03071e solid 5px;
+    color: #03071e;
   }
 }
 
@@ -75,7 +84,7 @@ a:visited {
 @media (min-width:1150px){
 
   .body-resposive{
-    background-image: url(./../img/bg-img.jpg);
+    background-image: map-get($bg-img, big);
     
   }
 
@@ -129,7 +138,6 @@ a:visited {
 @media (min-width:1px){
 
   .index__a{
-    
   }
 
 }
