@@ -253,7 +253,7 @@ a:link, a:visited {
 /* State when navbar is collapsed (END) */
 /* Color of Toggler when collapsed */
 .navbar-toggler.collapsed .toggler-icon {
-  background-color: #777777;
+  background-color: white;
 }
 
 /*.nopush{
