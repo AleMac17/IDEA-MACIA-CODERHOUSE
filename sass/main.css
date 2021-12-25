@@ -117,6 +117,9 @@ a:link, a:visited {
   .row__main .row__main-div {
     height: 77vh;
   }
+  .body-resposive {
+    background-repeat: repeat;
+  }
 }
 
 @media (max-width: 435px) {
@@ -135,6 +138,9 @@ a:link, a:visited {
   }
   .row__main .row__main-div {
     margin-top: 5vh;
+  }
+  .body-resposive {
+    background-repeat: repeat;
   }
 }
 
