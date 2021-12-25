@@ -132,6 +132,36 @@ a:link, a:visited {
   }
 }
 
+@media (max-height: 576px) {
+  .index__a {
+    font-size: 4.5rem;
+  }
+}
+
+@media (max-height: 518px) {
+  .index__a {
+    font-size: 4.3rem;
+  }
+}
+
+@media (max-height: 490px) {
+  .index__a {
+    font-size: 4rem;
+  }
+}
+
+@media (max-height: 458px) {
+  .index__a {
+    font-size: 3.8rem;
+  }
+}
+
+@media (max-height: 434px) {
+  .index__a {
+    font-size: 3.6rem;
+  }
+}
+
 #navbar__container--reverse {
   -webkit-box-orient: horizontal;
   -webkit-box-direction: reverse;
