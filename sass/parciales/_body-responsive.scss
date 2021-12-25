@@ -3,6 +3,10 @@ $bg-img: (
   "small": url(./../img/bg-img-alt.jpg),
 );
 
+@mixin padding-l-r-0 {
+  padding-right: 0px;
+  padding-left: 0px;
+}
 
 .body-resposive{
     background-image: map-get($bg-img, small);
@@ -27,7 +31,7 @@ a:link {
   }
   
 a:visited {
-  text-decoration: none;
+  @extend a:link
   }
 
 .nav-link:hover{
@@ -65,10 +69,10 @@ a:visited {
   flex-shrink: 0;
   width: 100%;
   max-width: 100%;
-  padding-right: 0;
-  padding-left: 0;
   margin-top: 0;
+  @include padding-l-r-0;
 }
+
 
 .row {
     --bs-gutter-x: 1.5rem;
@@ -133,6 +137,7 @@ a:visited {
   .row__main .row__main-div{
     margin-top: 5vh;
   }
+  
 }
 
 @media (min-width:1px){
