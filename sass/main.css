@@ -113,7 +113,7 @@ a:link, a:visited {
   }
 }
 
-@media (max-width: 813px) {
+@media (max-width: 1146px) {
   .row__main .row__main-div {
     height: 77vh;
   }
@@ -288,7 +288,7 @@ a:link, a:visited {
   margin-right: 1vw;
 }
 
-@media (max-width: 813px) {
+@media (max-width: 1146px) {
   .index_footer {
     visibility: hidden;
   }
