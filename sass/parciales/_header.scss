@@ -79,7 +79,7 @@
 
 .navbar-nav{
     position: absolute;
-    background: white;
+    background: black;
     width: 99vw;
     display: flex;
 }
@@ -89,3 +89,10 @@
     .navbar-nav{background:none}
     
 }
+
+@media (max-width:1146px){
+    .navbar-light .navbar-nav .nav-link.active{
+        color: white;
+    }
+  }
+  
