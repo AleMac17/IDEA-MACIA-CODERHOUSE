@@ -8,30 +8,11 @@
   width: 100vw;
 }
 
-.index__a {
-  font-family: 'Poppins', serif;
-  font-size: 5rem;
-  font-weight: 600;
-  color: white;
-  min-width: 385px;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-}
-
 a {
   color: white;
   text-decoration: none;
   -webkit-transition: border-width 0.2s linear;
   transition: border-width 0.2s linear;
-}
-
-a:hover {
-  border-bottom: #03071e solid 5px;
-  color: #03071e;
 }
 
 a:link {
@@ -54,6 +35,25 @@ a:visited {
 .container__index__a {
   min-width: 100vw;
   margin: 0;
+}
+
+.index__a {
+  font-family: 'Poppins', serif;
+  font-size: 5rem;
+  font-weight: 600;
+  color: white;
+  min-width: 385px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.index__a:hover {
+  border-bottom: #03071e solid 5px;
+  color: #03071e;
 }
 
 .row__main .row__main-div {
