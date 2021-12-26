@@ -1,3 +1,114 @@
+#navbar__container--reverse {
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: reverse;
+      -ms-flex-direction: row-reverse;
+          flex-direction: row-reverse;
+}
+
+.navbar-brand {
+  z-index: 1000;
+}
+
+.navbar-toggler {
+  border: 0 !important;
+}
+
+.navbar-toggler:focus,
+.navbar-toggler:active,
+.navbar-toggler-icon:focus {
+  outline: none !important;
+  -webkit-box-shadow: none !important;
+          box-shadow: none !important;
+  border: 0 !important;
+}
+
+/* Lines of the Toggler */
+.toggler-icon {
+  width: 30px;
+  height: 3px;
+  background-color: #e74c3c;
+  display: block;
+  -webkit-transition: all 0.2s;
+  transition: all 0.2s;
+}
+
+/* Adds Space between the lines */
+.middle-bar {
+  margin: 5px auto;
+}
+
+/* State when navbar is opened (START) */
+.navbar-toggler .top-bar {
+  -webkit-transform: rotate(45deg);
+          transform: rotate(45deg);
+  -webkit-transform-origin: 10% 10%;
+          transform-origin: 10% 10%;
+}
+
+.navbar-toggler .middle-bar {
+  opacity: 0;
+  filter: alpha(opacity=0);
+}
+
+.navbar-toggler .bottom-bar {
+  -webkit-transform: rotate(-45deg);
+          transform: rotate(-45deg);
+  -webkit-transform-origin: 10% 90%;
+          transform-origin: 10% 90%;
+}
+
+/* State when navbar is opened (END) */
+/* State when navbar is collapsed (START) */
+.navbar-toggler.collapsed .top-bar {
+  -webkit-transform: rotate(0);
+          transform: rotate(0);
+}
+
+.navbar-toggler.collapsed .middle-bar {
+  opacity: 1;
+  filter: alpha(opacity=100);
+}
+
+.navbar-toggler.collapsed .bottom-bar {
+  -webkit-transform: rotate(0);
+          transform: rotate(0);
+}
+
+/* State when navbar is collapsed (END) */
+/* Color of Toggler when collapsed */
+.navbar-toggler.collapsed .toggler-icon {
+  background-color: white;
+}
+
+/*.nopush{
+    position: absolute;
+    top: 13vh;
+    left: 4vw;
+    background: white;
+}*/
+.navbar-nav {
+  position: absolute;
+  background: black;
+  width: 99vw;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+/* Header de los otros sitios*/
+/*media*/
+@media (min-width: 991.82px) {
+  .navbar-nav {
+    background: none;
+  }
+}
+
+@media (max-width: 1146px) {
+  .navbar-light .navbar-nav .nav-link.active {
+    color: white;
+  }
+}
+
 .body-resposive {
   background-image: url(./../img/bg-img-alt.jpg);
   background-repeat: no-repeat;
@@ -291,6 +402,10 @@ body {
           align-items: center;
 }
 
+.navbar-toggler.collapsed .toggler-icon {
+  background-color: black;
+}
+
 .slide-in-bottom {
   -webkit-animation: slide-in-bottom 1.6s cubic-bezier(0.25, 0.46, 0.45, 0.94) both;
   animation: slide-in-bottom 1.6s cubic-bezier(0.25, 0.46, 0.45, 0.94) both;
@@ -443,117 +558,6 @@ body {
     -webkit-transform: translateX(1000px);
     transform: translateX(1000px);
     opacity: 0;
-  }
-}
-
-#navbar__container--reverse {
-  -webkit-box-orient: horizontal;
-  -webkit-box-direction: reverse;
-      -ms-flex-direction: row-reverse;
-          flex-direction: row-reverse;
-}
-
-.navbar-brand {
-  z-index: 1000;
-}
-
-.navbar-toggler {
-  border: 0 !important;
-}
-
-.navbar-toggler:focus,
-.navbar-toggler:active,
-.navbar-toggler-icon:focus {
-  outline: none !important;
-  -webkit-box-shadow: none !important;
-          box-shadow: none !important;
-  border: 0 !important;
-}
-
-/* Lines of the Toggler */
-.toggler-icon {
-  width: 30px;
-  height: 3px;
-  background-color: #e74c3c;
-  display: block;
-  -webkit-transition: all 0.2s;
-  transition: all 0.2s;
-}
-
-/* Adds Space between the lines */
-.middle-bar {
-  margin: 5px auto;
-}
-
-/* State when navbar is opened (START) */
-.navbar-toggler .top-bar {
-  -webkit-transform: rotate(45deg);
-          transform: rotate(45deg);
-  -webkit-transform-origin: 10% 10%;
-          transform-origin: 10% 10%;
-}
-
-.navbar-toggler .middle-bar {
-  opacity: 0;
-  filter: alpha(opacity=0);
-}
-
-.navbar-toggler .bottom-bar {
-  -webkit-transform: rotate(-45deg);
-          transform: rotate(-45deg);
-  -webkit-transform-origin: 10% 90%;
-          transform-origin: 10% 90%;
-}
-
-/* State when navbar is opened (END) */
-/* State when navbar is collapsed (START) */
-.navbar-toggler.collapsed .top-bar {
-  -webkit-transform: rotate(0);
-          transform: rotate(0);
-}
-
-.navbar-toggler.collapsed .middle-bar {
-  opacity: 1;
-  filter: alpha(opacity=100);
-}
-
-.navbar-toggler.collapsed .bottom-bar {
-  -webkit-transform: rotate(0);
-          transform: rotate(0);
-}
-
-/* State when navbar is collapsed (END) */
-/* Color of Toggler when collapsed */
-.navbar-toggler.collapsed .toggler-icon {
-  background-color: white;
-}
-
-/*.nopush{
-    position: absolute;
-    top: 13vh;
-    left: 4vw;
-    background: white;
-}*/
-.navbar-nav {
-  position: absolute;
-  background: black;
-  width: 99vw;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-}
-
-/* Header de los otros sitios*/
-/*media*/
-@media (min-width: 991.82px) {
-  .navbar-nav {
-    background: none;
-  }
-}
-
-@media (max-width: 1146px) {
-  .navbar-light .navbar-nav .nav-link.active {
-    color: white;
   }
 }
 

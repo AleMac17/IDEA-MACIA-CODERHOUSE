@@ -96,6 +96,11 @@ align-items: center;
     }
 }
 
+.navbar-toggler.collapsed .toggler-icon {
+    background-color: black;
+}
+
+
 .slide-in-bottom {
 	-webkit-animation: slide-in-bottom 1.6s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
 	        animation: slide-in-bottom 1.6s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
