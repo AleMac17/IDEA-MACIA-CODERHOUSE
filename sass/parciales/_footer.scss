@@ -1,0 +1,21 @@
+$color:(
+    "1": #f08700,
+    "2": #F49F0A,
+    "3": #EFCA08,
+    "4": #00A6A6,
+    "5": #BBDEF0,
+);
+
+.footer{
+    right: 1vw;
+    & ul{
+        list-style: none;
+        padding: 0px;
+        margin: 0px;
+        & li{
+            & a{      
+            color: map-get($color,"4");
+            }
+        }
+    }
+}
