@@ -601,7 +601,7 @@ body {
   -webkit-box-align: baseline;
       -ms-flex-align: baseline;
           align-items: baseline;
-  border-bottom: 8px ridge rgba(139, 69, 19, 0.74);
+  border-bottom: 2px ridge rgba(139, 69, 19, 0.74);
   border-radius: 4px;
 }
 
