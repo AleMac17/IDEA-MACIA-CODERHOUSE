@@ -11,7 +11,7 @@ $color:(
     & ul{
         list-style: none;
         padding: 0px;
-        margin: 0px;
+        margin: 10px;
         & li{
             & a{      
             color: map-get($color,"4");
