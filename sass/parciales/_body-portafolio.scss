@@ -35,16 +35,6 @@
    height: 50%;
 }
 
-.scroller {
-    height: 100vh;
-    overflow-y: scroll;
-    scroll-snap-type: y mandatory;
-}
-
-.scroller section {
-    scroll-snap-align: start;
-}
-
 .carousel-item img:hover{
     width: 60%;
     height: 60%;

@@ -2,6 +2,24 @@
     flex-direction: row-reverse;          
 }
 
+.nav-link{
+    font-family: 'Playfair Display', serif;
+    font-weight: 600;
+    font-size: 1.2rem; 
+    padding: 10px 10px 0px 10px;
+    margin-left: 1px;
+    margin-right: 1px;
+    border-bottom: 2px solid transparent;
+    transition: border-color 2s;
+}
+
+.nav-link:hover{
+    font-size: 1.3rem;
+    padding: 9px 9px -1px 9px;
+    border-color: rgba(0, 0, 0, 0.9);;
+  }
+  
+
 .navbar-brand{
     z-index: 1000;
 }

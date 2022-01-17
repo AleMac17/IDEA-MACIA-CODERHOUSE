@@ -9,7 +9,7 @@ $bg-img: (
 }
 
 .body-resposive{
-    background-image: map-get($bg-img, small);
+    background-image: map-get($bg-img, big);
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: contain;
@@ -34,10 +34,6 @@ a:visited {
   @extend a:link
   }
 
-.nav-link:hover{
-  font-size: 110%;
-  font-weight: 600;
-}
 
 .text-center{
   display: flex;
