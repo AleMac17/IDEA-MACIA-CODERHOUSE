@@ -1,6 +1,10 @@
+
+
 .main__servicios{
     flex-direction: column;
     flex-wrap: nowrap;
+    background-color: black;
+    color: white;
 }
 
 .main-h1__servicios{
@@ -8,7 +12,9 @@
 }
 
 .main-h2__servicios{
-    display: flex;}
+    display: flex;
+    margin-top: 12vh!important;
+}
 
 .main-colfull__servicios{
     display: flex;
@@ -29,27 +35,32 @@
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
+    margin-bottom: 10vh !important;
+    margin-top: 12vh!important
 }
 
 #main-h2__servicios1{
     background-image:url(../img/servicios/nature.jpg);
-    height: 100vh
+    height: 100vh;
+    background-attachment: fixed;
 
 }
 #main-h2__servicios2{
     background-image:url(../img/servicios/wedding.jpg);
-    height: 100vh
+    height: 100vh;
+    background-attachment: fixed;
 
 }
 
 #main-h2__servicios3{
     background-image:url(../img/servicios/soccer.jpg);
-    height: 100vh
+    height: 100vh;
+    background-attachment: fixed;
 
 }
 
 #main-h2__servicios2col{
-    justify-content: flex-end;
+    align-items: flex-end;
 }
 
 

@@ -28,6 +28,8 @@
           flex-direction: column;
   -ms-flex-wrap: nowrap;
       flex-wrap: nowrap;
+  background-color: black;
+  color: white;
 }
 
 .main-h1__servicios {
@@ -40,6 +42,7 @@
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  margin-top: 12vh !important;
 }
 
 .main-colfull__servicios {
@@ -84,27 +87,32 @@
           flex-direction: row;
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
+  margin-bottom: 10vh !important;
+  margin-top: 12vh !important;
 }
 
 #main-h2__servicios1 {
   background-image: url(../img/servicios/nature.jpg);
   height: 100vh;
+  background-attachment: fixed;
 }
 
 #main-h2__servicios2 {
   background-image: url(../img/servicios/wedding.jpg);
   height: 100vh;
+  background-attachment: fixed;
 }
 
 #main-h2__servicios3 {
   background-image: url(../img/servicios/soccer.jpg);
   height: 100vh;
+  background-attachment: fixed;
 }
 
 #main-h2__servicios2col {
-  -webkit-box-pack: end;
-      -ms-flex-pack: end;
-          justify-content: flex-end;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
 }
 
 .myButton {
