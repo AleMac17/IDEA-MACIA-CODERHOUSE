@@ -29,6 +29,7 @@ $color:(
     flex-direction: column;
     align-items: flex-start;
     justify-content: flex-start;
+    margin-left: 20vh;
 }
 
 .main-col3__servicios{
@@ -69,6 +70,8 @@ $color:(
 
 #main-h2__servicios2col{
     align-items: flex-end;
+    margin-right: 10vh;
+    margin-left: 0vh;
 }
 
 .btn-outline-primary {
