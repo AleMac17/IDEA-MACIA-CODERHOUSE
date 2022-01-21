@@ -487,6 +487,15 @@
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  width: -webkit-fill-available;
+  z-index: 10000;
+  width: 95%;
+  border-radius: 10px;
+}
+
+.navbar {
+  -ms-flex-wrap: nowrap;
+      flex-wrap: nowrap;
 }
 
 /* Header de los otros sitios*/
@@ -814,7 +823,7 @@ a:link, a:visited {
 
 #portafolio-main__section2-2 {
   margin-top: 15vh;
-  height: 100vh;
+  margin-bottom: 10vh;
 }
 
 .carousel-inner {

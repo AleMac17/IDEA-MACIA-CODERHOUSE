@@ -99,6 +99,13 @@
     position: absolute;
     background: black;
     display: flex;
+    width: -webkit-fill-available;
+    z-index: 10000;
+    width: 95%;
+    border-radius: 10px;
+}
+.navbar{
+    flex-wrap: nowrap;
 }
 
 /* Header de los otros sitios*/
