@@ -43,9 +43,10 @@ $color:(
 .main-ulfinal__servicios{
     display: flex;
     flex-direction: row;
-    flex-wrap: wrap;
+    flex-wrap: wrap !important;
     margin-bottom: 10vh !important;
     margin-top: 12vh!important
+
 }
 
 #main-h2__servicios1{
@@ -113,4 +114,17 @@ $color:(
     & h2{
         font-size: 2.5vh;
     }
+}
+
+@media (max-width:768px){
+    .main-ulfinal__servicios{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap !important;
+    margin-bottom: 10vh !important;
+    margin-top: 12vh!important;
+    align-items: center;
+    }
+    
+    .col-4{width: auto;}
 }
