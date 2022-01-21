@@ -26,6 +26,7 @@
 
 .navbar-toggler {
     border: 0 !important;
+    z-index: 100000;
 }
 
 .navbar-toggler:focus,
@@ -103,9 +104,12 @@
     z-index: 10000;
     width: 95%;
     border-radius: 10px;
+    align-items: center;
+    top: 1vh;
 }
 .navbar{
     flex-wrap: nowrap;
+    
 }
 
 /* Header de los otros sitios*/

@@ -35,9 +35,12 @@ $color:(
 .main-col3__servicios{
     display: flex;
     flex-direction: column;
+    border: map-get($color,"1") 1px solid ;
+    align-items: center;
 }
 .main-col3-row__servicios{
     display: flex;
+    
 }
 
 .main-ulfinal__servicios{
@@ -45,9 +48,14 @@ $color:(
     flex-direction: row;
     flex-wrap: wrap !important;
     margin-bottom: 10vh !important;
-    margin-top: 12vh!important
-
+    margin-top: 12vh!important;
+    justify-content: space-around;
 }
+
+
+
+.col-3{
+    width: 30%;}
 
 #main-h2__servicios1{
     background-image:url(../img/servicios/nature.jpg);
@@ -109,6 +117,10 @@ $color:(
     background-color: map-get($color,"1");
     }
 
+#main-col3-row-button__servicios{
+    width: 50%;
+}
+
 .main-colfull-h__servicios{ 
     width: 40vw;
     & h2{
@@ -126,5 +138,6 @@ $color:(
     align-items: center;
     }
     
-    .col-4{width: auto;}
+    .col-3{
+        width: 75vw;}
 }
