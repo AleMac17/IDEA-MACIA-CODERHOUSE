@@ -13,26 +13,27 @@ $bg-img-servicios: (
   "eventos-deportivos": url(https://i.ibb.co/SPbzWnf/soccer.jpg),
 );
 
-
-
 .main__servicios{
     flex-direction: column;
     flex-wrap: nowrap;
     background-color: black;
     color: white;
 }
-
 .main-h1__servicios{
     display: flex;
+    & h1{
+        font-size: 8vh;
+    }
 }
-
 .main-h2__servicios{
     display: flex;
     margin-top: 12vh!important;
     height: 100vh;
     background-attachment: fixed;
+    & h2{
+        font-size: 6vh;
+    }
 }
-
 .main-colfull__servicios{
     display: flex;
     flex-direction: column;
@@ -40,18 +41,20 @@ $bg-img-servicios: (
     justify-content: flex-start;
     margin-left: 20vh;
 }
-
 .main-col3__servicios{
     display: flex;
     flex-direction: column;
-    border: map-get($color,"1") 1px solid ;
+    border: map-get($color,"1") 5px solid ;
     align-items: center;
+    justify-content: flex-end;
 }
 .main-col3-row__servicios{
     display: flex;
-    
+    justify-content: center;
+    & a{
+        width: auto;
+    }
 }
-
 .main-ulfinal__servicios{
     display: flex;
     flex-direction: row;
@@ -60,39 +63,42 @@ $bg-img-servicios: (
     margin-top: 12vh!important;
     justify-content: space-around;
 }
-
-
-
 .col-3{
     width: 30%;}
 
 #main-h2__servicios1{
     background-image:map-get($bg-img-servicios,"paisajes");
-
-
 }
 #main-h2__servicios2{
     background-image:map-get($bg-img-servicios,"casamientos");
 }
-
 #main-h2__servicios3{
     background-image:map-get($bg-img-servicios,"eventos-deportivos");
+    background-position: center;
 }
-
 #main-h2__servicios2col{
     align-items: flex-end;
     margin-right: 10vh;
     margin-left: 0vh;
 }
-
-.btn-outline-primary {
-    color: map-get($color,"1");
-    border-color: map-get($color,"1");
-}
-.btn-outline-primary:hover {
-    color: #fff;
-    background-color: map-get($color,"1");
-    border-color: map-get($color,"1");
+.btn{
+    height: 8vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 50%;
+    text-transform:capitalize;
+    &-outline-primary{
+        color: map-get($color,"1");
+        border-color: map-get($color,"1");
+        border-width: 4px;
+        font-size: 4vh;
+        &:hover{
+            color: #fff;
+            background-color: map-get($color,"1");
+            border-color: map-get($color,"1");
+        }
+    }
 }
 .btn-check:focus + .btn-outline-primary, .btn-outline-primary:focus {
     box-shadow: 0 0 0 0.25rem rgba(244, 159, 10, 0.5);
@@ -109,7 +115,6 @@ $bg-img-servicios: (
     color: map-get($color,"1");
     background-color: transparent;
 }
-  
 .btn-outline-primary:focus-within {
     box-shadow: -13px 0px 9px -2px #f49e0a;
     border-radius:6px;
@@ -118,18 +123,22 @@ $bg-img-servicios: (
     text-shadow:0px 1px 0px #141414;
     background-color: map-get($color,"1");
 }
-
-#main-col3-row-button__servicios{
-    width: 50%;
-}
-
 .main-colfull-h__servicios{ 
     width: 40vw;
     & h2{
-        font-size: 2.5vh;
+        font-size: 3.5vh;
+    }
+    & h3{
+        line-height: 6vh;
+        letter-spacing: 0.3vh;
+        color: black;
+        font-weight: 500;
     }
 }
-
+#main-colfull-button__servicios{
+    display: flex;
+    justify-content: center;
+}
 @media (max-width:768px){
     .main-ulfinal__servicios{
     display: flex;
@@ -141,7 +150,8 @@ $bg-img-servicios: (
     }
     
     .col-3{
-        width: 75vw;}
+        width: 75vw;
+    }
 
     .main-colfull__servicios {
     display: -webkit-box;
@@ -165,9 +175,9 @@ $bg-img-servicios: (
     }
     .main-colfull-h__servicios {
         width: auto;
-        margin-bottom: 10vh;
+        margin-bottom: 5vh;
         & h2{
-            font-size: 4vh;
+            font-size: 3vh;
         }
     }
     .main-h2__servicios{
@@ -181,5 +191,7 @@ $bg-img-servicios: (
         height: 9vh;
         display: flex;
         align-items: center;
+        font-size: 4vh;
+        width: auto;
     }
 }

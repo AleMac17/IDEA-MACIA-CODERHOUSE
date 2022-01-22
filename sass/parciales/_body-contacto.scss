@@ -44,7 +44,6 @@ $color:(
   color: map-get($color,"1");
   background-color: transparent;
 }
-
 .btn-outline-primary:focus-within {
   box-shadow: -13px 0px 9px -2px #f49e0a;
 	border-radius:6px;
@@ -53,7 +52,6 @@ $color:(
 	text-shadow:0px 1px 0px #141414;
   background-color: map-get($color,"1");
   }
-
 .form-control{
 border: none;
 border-bottom: 1px solid map-get($color,"1");
@@ -65,7 +63,14 @@ border-bottom: 1px solid map-get($color,"1");
     box-shadow: 0 0 0 0.25rem rgba(244, 159, 10, 0.5);
   }
 }
-
+#btn-contacto{
+  width: 21vw;
+  border-width: 1px; 
+  font-size: 2vh;
+  text-transform: uppercase;
+  height: 6vh;
+  margin-bottom: 2vh;
+}
 .section-form{
   margin-top: 5vh;
   &__form{
@@ -84,7 +89,6 @@ flex-direction: column;
 flex-wrap: wrap;
 align-items: center;
 }
-
 .navbar-toggler.collapsed .toggler-icon {
   background-color: black;
 }

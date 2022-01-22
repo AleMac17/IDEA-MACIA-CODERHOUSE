@@ -38,6 +38,10 @@
   display: flex;
 }
 
+.main-h1__servicios h1 {
+  font-size: 8vh;
+}
+
 .main-h2__servicios {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -45,6 +49,10 @@
   margin-top: 12vh !important;
   height: 100vh;
   background-attachment: fixed;
+}
+
+.main-h2__servicios h2 {
+  font-size: 6vh;
 }
 
 .main-colfull__servicios {
@@ -72,16 +80,26 @@
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
-  border: #f08700 1px solid;
+  border: #f08700 5px solid;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
 }
 
 .main-col3-row__servicios {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.main-col3-row__servicios a {
+  width: auto;
 }
 
 .main-ulfinal__servicios {
@@ -114,6 +132,7 @@
 
 #main-h2__servicios3 {
   background-image: url(https://i.ibb.co/SPbzWnf/soccer.jpg);
+  background-position: center;
 }
 
 #main-h2__servicios2col {
@@ -124,9 +143,26 @@
   margin-left: 0vh;
 }
 
+.btn {
+  height: 8vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  width: 50%;
+  text-transform: capitalize;
+}
+
 .btn-outline-primary {
   color: #f08700;
   border-color: #f08700;
+  border-width: 4px;
+  font-size: 4vh;
 }
 
 .btn-outline-primary:hover {
@@ -166,16 +202,28 @@
   background-color: #f08700;
 }
 
-#main-col3-row-button__servicios {
-  width: 50%;
-}
-
 .main-colfull-h__servicios {
   width: 40vw;
 }
 
 .main-colfull-h__servicios h2 {
-  font-size: 2.5vh;
+  font-size: 3.5vh;
+}
+
+.main-colfull-h__servicios h3 {
+  line-height: 6vh;
+  letter-spacing: 0.3vh;
+  color: black;
+  font-weight: 500;
+}
+
+#main-colfull-button__servicios {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
 }
 
 @media (max-width: 768px) {
@@ -222,10 +270,10 @@
   }
   .main-colfull-h__servicios {
     width: auto;
-    margin-bottom: 10vh;
+    margin-bottom: 5vh;
   }
   .main-colfull-h__servicios h2 {
-    font-size: 4vh;
+    font-size: 3vh;
   }
   .main-h2__servicios {
     display: -webkit-box;
@@ -245,6 +293,8 @@
     -webkit-box-align: center;
         -ms-flex-align: center;
             align-items: center;
+    font-size: 4vh;
+    width: auto;
   }
 }
 
@@ -508,7 +558,6 @@
   transition: all 0.2s;
 }
 
-/* Adds Space between the lines */
 .middle-bar {
   margin: 5px auto;
 }
@@ -575,7 +624,6 @@
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  top: 1vh;
 }
 
 .navbar {
@@ -614,6 +662,7 @@
         -ms-flex-pack: space-evenly;
             justify-content: space-evenly;
     left: 1.5vw;
+    top: 1vh;
   }
 }
 
@@ -860,6 +909,15 @@ a:link, a:visited {
           box-shadow: 0 0 0 0.25rem rgba(244, 159, 10, 0.5);
 }
 
+#btn-contacto {
+  width: 21vw;
+  border-width: 1px;
+  font-size: 2vh;
+  text-transform: uppercase;
+  height: 6vh;
+  margin-bottom: 2vh;
+}
+
 .section-form {
   margin-top: 5vh;
 }
@@ -941,8 +999,6 @@ a:link, a:visited {
   -webkit-box-align: baseline;
       -ms-flex-align: baseline;
           align-items: baseline;
-  border-bottom: 2px ridge rgba(139, 69, 19, 0.74);
-  border-radius: 4px;
 }
 
 .carousel-item img {
@@ -983,7 +1039,7 @@ a:link, a:visited {
   }
 }
 
-body .sobremi__main {
+.sobremi__main {
   background-image: url(https://i.ibb.co/XDh8xTB/polofotolarga.jpg);
   background-repeat: no-repeat;
   background-position: 0% 40%;
@@ -1002,7 +1058,6 @@ body .sobremi__main {
 .sobremi__main-section1-row-col {
   margin: 25px;
   color: white;
-  background-color: rgba(0, 0, 0, 0.3);
   height: auto;
   max-height: auto;
   -webkit-backdrop-filter: blur(5px);
@@ -1018,6 +1073,7 @@ body .sobremi__main {
       justify-content: space-around;
   -webkit-box-sizing: content-box;
           box-sizing: content-box;
+  border-radius: 7px;
 }
 
 .sobremi__main-section1-row-col h1 {
@@ -1029,22 +1085,22 @@ body .sobremi__main {
 }
 
 .sobremi__main-section1-row-col h2 {
-  padding-top: 1vh;
-  padding-bottom: 1vh;
   font-family: 'Playfair Display', serif;
   letter-spacing: 0.03em;
   line-height: 1.5em;
   word-spacing: 0.5em;
+  padding-top: 1vh;
+  padding-bottom: 1vh;
 }
 
 .sobremi__main-section1-row-col p {
-  font-size: 1.5em;
   font-family: 'Playfair Display', serif;
-  font-weight: 300;
-  font-style: normal;
   letter-spacing: 0.03em;
   line-height: 1.5em;
   word-spacing: 0.5em;
+  font-size: 1.5em;
+  font-weight: 300;
+  font-style: normal;
 }
 
 .col-img {
