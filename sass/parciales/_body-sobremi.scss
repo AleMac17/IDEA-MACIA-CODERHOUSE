@@ -1,24 +1,16 @@
-body
-
 .sobremi__main{
-    
     background-image:url(https://i.ibb.co/XDh8xTB/polofotolarga.jpg);
     background-repeat: no-repeat;
     background-position: 0% 40%;
     background-size: cover;
     box-sizing: border-box;
     background-clip: padding-box;
-
-    
 }
 
 .sobremi__main-section1{
     height: 87vh;
     box-sizing: border-box;
-
-
 }
-
 .sobremi__main-section1-row-col{
     margin: 25px;
     color: white;
@@ -31,17 +23,13 @@ body
     justify-content: space-around;
     box-sizing: content-box;
 }
-
 .sobremi__main-section1-row-col h1{
-
     font-family: 'Playfair Display', serif;
     letter-spacing: 0.03em;
     line-height: 1.5em ;
     word-spacing: 0.5em;
     font-style: italic;
 }
-
-
 .sobremi__main-section1-row-col h2{
     padding-top: 1vh;
     padding-bottom: 1vh;
@@ -49,9 +37,7 @@ body
     letter-spacing: 0.03em;
     line-height: 1.5em ;
     word-spacing: 0.5em;
-
 }
-
 .sobremi__main-section1-row-col p{
    font-size: 1.5em;
    font-family: 'Playfair Display', serif;
@@ -60,13 +46,10 @@ body
    letter-spacing: 0.03em;
    line-height: 1.5em ;
    word-spacing: 0.5em;
-
 }
-
 .col-img{
     display: none;
 }
-
 @media (max-width:460px){
     .col-img{
         display: flex;
@@ -126,10 +109,9 @@ body
         border-top: 5px solid #1C6EA4;
         border-bottom: 5px solid #1C6EA4;
     }
-    
 }
-
 @media (max-width: 1146px){
-.nav-link-sobremi {
+    .nav-link-sobremi {
     color: black !important;
-}}
+    }
+}

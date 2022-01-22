@@ -9,13 +9,13 @@ $bg-img: (
 }
 
 .body-resposive{
-    background-image: map-get($bg-img, big);
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    background-size: contain;
-    background-position: center;
-    height: 100vh;
-    width: 100vw;
+  background-image: map-get($bg-img, big);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: contain;
+  background-position: center;
+  height: 100vh;
+  width: 100vw;
 }
 
 
@@ -28,11 +28,11 @@ a{
 
 a:link {
   text-decoration: none;
-  }
+}
   
 a:visited {
   @extend a:link
-  }
+}
 
 
 .text-center{
@@ -71,31 +71,29 @@ a:visited {
 
 
 .row {
-    --bs-gutter-x: 1.5rem;
-    --bs-gutter-y: 0;
-    display: flex;
-    flex-wrap: wrap;
-    margin-top: 0;
-    margin-right: 0;
-    margin-left: 0;
+  --bs-gutter-x: 1.5rem;
+  --bs-gutter-y: 0;
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 0;
+  margin-right: 0;
+  margin-left: 0;
 }
     
 
 
 
 @media (min-width:1150px){
-
   .body-resposive{
     background-image: map-get($bg-img, big);
-    
   }
 
   .container__index__a{
     min-width: calc(100vw/3);
     display:flex;
-    & a{
+      & a{
       color: #03071e
-    }
+      }
   }
 
   .row__main{
@@ -112,45 +110,33 @@ a:visited {
   .row__main-div{
     flex-wrap: nowrap;
     width: 100vw;
-    --bs-gutter-x: 0rem;
-    
+    --bs-gutter-x: 0rem;  
   }
-
 }
-
 @media (max-width:1146px){
   .row__main .row__main-div{
     height: 77vh;
   }
 }
-
 @media (max-width:435px){
   .index__a{
-
     font-size: 4.4rem;
     padding: 0;
     min-width: fit-content;
-    
-
 }
   .container__index__a{
     min-width: fit-content;
     margin: 0;
   }
-
   .row__main .row__main-div{
     margin-top: 5vh;
   }
-
   .body-resposive{
-
     background-size: cover;
   }
-  
 }
 
 @media (min-width:1px){
-
 }
 
 @media (max-height:576px){
@@ -158,29 +144,23 @@ a:visited {
     font-size: 4.5rem;
   }
 }
-
-
 @media (max-height:518px){
   .index__a{
     font-size: 4.3rem;
   }
 }
-
 @media (max-height:490px){
   .index__a{
     font-size: 4rem;
   }
 }
-
 @media (max-height:458px){
   .index__a{
     font-size: 3.8rem;
   }
 }
-
 @media (max-height:434px){
   .index__a{
     font-size: 3.6rem;
   }
 }
-
