@@ -88,27 +88,27 @@ $bg-img-servicios: (
 .btn-outline-primary {
     color: map-get($color,"1");
     border-color: map-get($color,"1");
-  }
+}
 .btn-outline-primary:hover {
     color: #fff;
     background-color: map-get($color,"1");
     border-color: map-get($color,"1");
-  }
+}
 .btn-check:focus + .btn-outline-primary, .btn-outline-primary:focus {
     box-shadow: 0 0 0 0.25rem rgba(244, 159, 10, 0.5);
-  }
+}
 .btn-check:checked + .btn-outline-primary, .btn-check:active + .btn-outline-primary, .btn-outline-primary:active, .btn-outline-primary.active, .btn-outline-primary.dropdown-toggle.show {
     color: #fff;
     background-color: map-get($color,"1");
     border-color: map-get($color,"1");
-  }
+}
 .btn-check:checked + .btn-outline-primary:focus, .btn-check:active + .btn-outline-primary:focus, .btn-outline-primary:active:focus, .btn-outline-primary.active:focus, .btn-outline-primary.dropdown-toggle.show:focus {
     box-shadow: 0 0 0 0.25rem rgba(244, 159, 10, 0.5);
-  }
+}
 .btn-outline-primary:disabled, .btn-outline-primary.disabled {
     color: map-get($color,"1");
     background-color: transparent;
-  }
+}
   
 .btn-outline-primary:focus-within {
     box-shadow: -13px 0px 9px -2px #f49e0a;
@@ -117,7 +117,7 @@ $bg-img-servicios: (
     color:#000000;
     text-shadow:0px 1px 0px #141414;
     background-color: map-get($color,"1");
-    }
+}
 
 #main-col3-row-button__servicios{
     width: 50%;
