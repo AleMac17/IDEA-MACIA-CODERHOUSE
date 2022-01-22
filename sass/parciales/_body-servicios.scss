@@ -29,6 +29,8 @@ $bg-img-servicios: (
 .main-h2__servicios{
     display: flex;
     margin-top: 12vh!important;
+    height: 100vh;
+    background-attachment: fixed;
 }
 
 .main-colfull__servicios{
@@ -66,22 +68,15 @@ $bg-img-servicios: (
 
 #main-h2__servicios1{
     background-image:map-get($bg-img-servicios,"paisajes");
-    height: 100vh;
-    background-attachment: fixed;
+
 
 }
 #main-h2__servicios2{
     background-image:map-get($bg-img-servicios,"casamientos");
-    height: 100vh;
-    background-attachment: fixed;
-
 }
 
 #main-h2__servicios3{
     background-image:map-get($bg-img-servicios,"eventos-deportivos");
-    height: 100vh;
-    background-attachment: fixed;
-
 }
 
 #main-h2__servicios2col{
@@ -147,4 +142,44 @@ $bg-img-servicios: (
     
     .col-3{
         width: 75vw;}
+
+    .main-colfull__servicios {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-box-align: start;
+    -ms-flex-align: start;
+    align-items: center;
+    -webkit-box-pack: start;
+    -ms-flex-pack: start;
+    margin:0;
+    }
+    #main-h2__servicios2col{
+        align-items: center;
+        margin-right: 0;
+        margin-left: 0vh;
+    }
+    .main-colfull-h__servicios {
+        width: auto;
+        margin-bottom: 10vh;
+        & h2{
+            font-size: 4vh;
+        }
+    }
+    .main-h2__servicios{
+        display: flex;
+        margin-top: 12vh!important;
+        height: max-content;
+        background-attachment: fixed;
+        
+    }
+    .btn{
+        height: 9vh;
+        display: flex;
+        align-items: center;
+    }
 }
