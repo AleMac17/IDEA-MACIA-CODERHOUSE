@@ -1,6 +1,6 @@
 $bg-img: (
-  "big": url(./../img/bg-img.jpg),
-  "small": url(./../img/bg-img-alt.jpg),
+  "big": url(https://i.ibb.co/ZY20wQG/bg-img.jpg),
+  "small": url(https://i.ibb.co/WH9bDPR/bg-img-alt.jpg),
 );
 
 @mixin padding-l-r-0 {
@@ -122,9 +122,6 @@ a:visited {
   .row__main .row__main-div{
     height: 77vh;
   }
-  .body-resposive{
-
-  }
 }
 
 @media (max-width:435px){
@@ -153,9 +150,6 @@ a:visited {
 }
 
 @media (min-width:1px){
-
-  .index__a{
-  }
 
 }
 

@@ -7,6 +7,13 @@ $color:(
     "5": #BBDEF0,
 );
 
+$bg-img-servicios: (
+  "paisajes": url(https://i.ibb.co/pfwxs5Y/nature.jpg),
+  "casamientos": url(https://i.ibb.co/bdbHKcb/wedding.jpg),
+  "eventos-deportivos": url(https://i.ibb.co/SPbzWnf/soccer.jpg),
+);
+
+
 
 .main__servicios{
     flex-direction: column;
@@ -58,20 +65,20 @@ $color:(
     width: 30%;}
 
 #main-h2__servicios1{
-    background-image:url(../img/servicios/nature.jpg);
+    background-image:map-get($bg-img-servicios,"paisajes");
     height: 100vh;
     background-attachment: fixed;
 
 }
 #main-h2__servicios2{
-    background-image:url(../img/servicios/wedding.jpg);
+    background-image:map-get($bg-img-servicios,"casamientos");
     height: 100vh;
     background-attachment: fixed;
 
 }
 
 #main-h2__servicios3{
-    background-image:url(../img/servicios/soccer.jpg);
+    background-image:map-get($bg-img-servicios,"eventos-deportivos");
     height: 100vh;
     background-attachment: fixed;
 

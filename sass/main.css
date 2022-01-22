@@ -103,19 +103,19 @@
 }
 
 #main-h2__servicios1 {
-  background-image: url(../img/servicios/nature.jpg);
+  background-image: url(https://i.ibb.co/pfwxs5Y/nature.jpg);
   height: 100vh;
   background-attachment: fixed;
 }
 
 #main-h2__servicios2 {
-  background-image: url(../img/servicios/wedding.jpg);
+  background-image: url(https://i.ibb.co/bdbHKcb/wedding.jpg);
   height: 100vh;
   background-attachment: fixed;
 }
 
 #main-h2__servicios3 {
-  background-image: url(../img/servicios/soccer.jpg);
+  background-image: url(https://i.ibb.co/SPbzWnf/soccer.jpg);
   height: 100vh;
   background-attachment: fixed;
 }
@@ -574,7 +574,7 @@
 }
 
 .body-resposive {
-  background-image: url(./../img/bg-img.jpg);
+  background-image: url(https://i.ibb.co/ZY20wQG/bg-img.jpg);
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-size: contain;
@@ -653,7 +653,7 @@ a:link, a:visited {
 
 @media (min-width: 1150px) {
   .body-resposive {
-    background-image: url(./../img/bg-img.jpg);
+    background-image: url(https://i.ibb.co/ZY20wQG/bg-img.jpg);
   }
   .container__index__a {
     min-width: calc(100vw/3);
@@ -940,7 +940,7 @@ a:link, a:visited {
 }
 
 body .sobremi__main {
-  background-image: url(../img/polofotolarga.jpg);
+  background-image: url(https://i.ibb.co/XDh8xTB/polofotolarga.jpg);
   background-repeat: no-repeat;
   background-position: 0% 40%;
   background-size: cover;
