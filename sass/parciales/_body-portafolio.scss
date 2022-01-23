@@ -14,6 +14,11 @@
     align-content: space-between;
     align-items: flex-start;
     flex-wrap: wrap;
+    & p{ 
+        font-size: 2.7vh;
+        line-height: 4.3vh;
+        word-spacing: 1.5vh;
+    }
 }
 
 #portafolio-main__section2-2{
@@ -63,3 +68,4 @@
     }
     
 }
+
