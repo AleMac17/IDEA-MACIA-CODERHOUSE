@@ -57,36 +57,6 @@
 }
 .div9 { grid-area: 6 / 3 / 7 / 4; }
 
-.div10 { grid-area: 7 / 1 / 8 / 2;
-    display: flex;
-    margin-right: 10vw;
-    & span{font-size: 50%;
-        word-spacing: 0.1vh;
-    } }
-.div11 { grid-area: 7 / 2 / 8 / 3;
-    display: flex;
-    margin-right: 8vw;
-    & span{font-size: 50%;
-        word-spacing: 0.1vh;
-    } }
-.div12 { grid-area: 7 / 3 / 8 / 4;
-    display: flex;
-    margin-right: 6vw;
-    & span{font-size: 50%;
-        word-spacing: 0.1vh;
-    } }
-.div13 { grid-area: 7 / 4 / 8 / 5;
-    display: flex;
-    margin-right: 4vw;
-    & span{font-size: 50%;
-        word-spacing: 0.1vh;
-    } }
-.div14 { grid-area: 7 / 5 / 8 / 6; 
-    display: flex;
-    & span{font-size: 50%;
-        word-spacing: 0.1vh;
-    }}
-
 #errorbtn{
     width: 53vh;
 
@@ -129,3 +99,13 @@
   }
 }
 
+@media (max-width:425px){
+  .parent{
+    grid-column-gap: 1vh;
+    grid-row-gap: 22vw;
+  }
+  #errorbtn{
+    width: 48vh;
+
+}
+}
