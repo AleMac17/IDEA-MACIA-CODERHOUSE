@@ -397,6 +397,16 @@
   background-color: #f08700;
 }
 
+#btn-servicios {
+  color: #ffffff;
+  border: 4px solid #ffffff;
+}
+
+#btn-servicios:hover {
+  background-color: #ffffff;
+  color: #f08700;
+}
+
 .main-colfull-h__servicios {
   width: 40vw;
 }
