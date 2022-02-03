@@ -14,6 +14,8 @@ Sobre mi: Una pagina corta sobre quien soy y porque estoy aca, clara y sencilla.
 
 Contacto: Todo culmina en el contacto, en transformar al observador en cliente o moldear las oportunidades en sucesos. Un formulario corto y sencillo, con una estética que complementa esto.
 
+Error 404: Haz intentado usar el formulario? No te olvides de apretar el botón.
+
 
 <span>Alejandro Maciá</span>
 
