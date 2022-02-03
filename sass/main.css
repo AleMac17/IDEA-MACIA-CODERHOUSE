@@ -575,7 +575,7 @@
   font-size: 8vh;
 }
 
-@media (max-width: 425px) {
+@media (max-width: 768px) {
   .footer ul {
     gap: 20%;
   }
