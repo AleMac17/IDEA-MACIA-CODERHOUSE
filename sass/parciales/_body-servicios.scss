@@ -82,6 +82,7 @@ $bg-img-servicios: (
 #main-h2__servicios3{
     background-image:map-get($bg-img-servicios,"eventos-deportivos");
     background-position: center;
+    margin-bottom: 10vh;
 }
 #main-h2__servicios2col{
     align-items: flex-end;
