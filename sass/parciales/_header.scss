@@ -98,7 +98,14 @@
     }  
 }
 
-@media (max-width:1146px){
+@media (max-width:991.82px) {
+    .navbar-nav{
+        width: 97%;
+        height: 98vh;
+        justify-content: space-evenly;
+        left: 1.5vw;
+        top: 1vh;
+    }
     .navbar-light .navbar-nav .nav-link.active{
         color: white !important;
     }
@@ -111,14 +118,4 @@
     border-color: rgba(0, 0, 0, 0.9);
     border-bottom: solid 1px white;
   }
-}
-
-@media (max-width:991.82px) {
-    .navbar-nav{
-        width: 97%;
-        height: 98vh;
-        justify-content: space-evenly;
-        left: 1.5vw;
-        top: 1vh;
-    }
 }
