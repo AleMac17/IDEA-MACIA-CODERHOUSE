@@ -1405,8 +1405,8 @@ a:link, a:visited {
         justify-content: space-around;
     -webkit-box-sizing: content-box;
             box-sizing: content-box;
-    border-top: 5px solid #1C6EA4;
-    border-bottom: 5px solid #1C6EA4;
+    border-top: 5px solid #adb5bd;
+    border-bottom: 5px solid #adb5bd;
   }
 }
 
