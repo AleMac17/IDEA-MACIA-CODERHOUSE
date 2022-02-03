@@ -56,6 +56,12 @@ $bg-img-servicios: (
         width: auto;
     }
 }
+.main-colfull-h__servicios h3:hover{
+    font-weight: 800;
+    background:rgba(255, 255, 255,0.5);
+    transition: all 2s;
+}
+
 .main-ulfinal__servicios{
     display: flex;
     flex-direction: row;
